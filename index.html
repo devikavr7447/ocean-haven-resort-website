@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCEAN HAVEN</title>
+    <link rel="icon" type="image/png" href="./media/logo2.png">
+    <link rel="stylesheet" href="style.css">
+    <!--bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--header / navbar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid p-1">
+            <a class="navbar-brand text-dark fw-bold fs-2 ms-5" href="#"><img height="40px" width="45px"
+                    src="./media/logo2.png">OCEAN HAVEN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href="rooms.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href="adventures.html">Adventures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--hero section-->
+    <section class="container-fluid p-0">
+        <div id="home" class="row align-items-center" style="background: url('./media/hero.png'); 
+        background-size: cover; background-position: center; background-repeat: no-repeat; 
+        min-height: 80vh;">
+
+            <div class="col-lg-6 col-md-8 col-12 d-flex flex-column justify-content-center text-light p-5">
+
+                <h3 class="mb-4 text-light">ESCAPE. RELAX. RECHARGE</h3>
+
+                <h1 class="fw-bold mb-4 text-light">A Little Closer To Sea</h1>
+
+                <h1 class="mb-4" style="font-style: italic;">
+                    A Perfect Gateway Awaits You
+                </h1>
+
+                <p class="mb-4 fs-5" style="text-align: left;">
+                    Escape to Ocean Haven, where golden sands meet
+                    crystal-clear waters. Experience luxurious comfort,
+                    breathtaking ocean views, and unforgettable
+                    moments in a tropical paradise. Let the waves slow
+                    you down and make every moment special.
+                </p>
+
+                <button class="btn btn-warning exploreButton">
+                    Explore The Resort
+                </button>
+
+            </div>
+
+            <div class="col-lg-6 d-none d-lg-block"></div>
+
+        </div>
+    </section>
+
+
+
+    <!-- resort features section -->
+    <section class="resortFeatures">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5">
+
+                <div class="col featureBox">
+                    <img class="mb-3" height="50px" width="50px" src="./media/font1.png">
+                    <h5>OCEANFRONT<br>LOCATION</h5>
+                    <p>Stunning views &<br>direct beach access</p>
+                </div>
+
+                <div class="col featureBox">
+                    <img class="mb-3" height="50px" width="50px" src="./media/font2.png">
+                    <h5>LUXURY<br>ACCOMMODATIONS</h5>
+                    <p>Spacious rooms & villas<br>with modern comfort</p>
+                </div>
+
+                <div class="col featureBox">
+                    <img class="mb-3" height="50px" width="50px" src="./media/font3.png">
+                    <h5>EXCEPTIONAL<br>DINING</h5>
+                    <p>Fresh flavors, local<br>ingredients</p>
+                </div>
+
+                <div class="col featureBox">
+                    <img class="mb-3" height="50px" width="50px" src="./media/font4.png">
+                    <h5>WELLNESS<br>& SPA</h5>
+                    <p>Relax, rejuvenate &<br>restore your soul</p>
+                </div>
+
+                <div class="col featureBox">
+                    <img class="mb-3" height="50px" width="50px" src="./media/font5.png">
+                    <h5>WORLD-CLASS<br>SERVICE</h5>
+                    <p>Personalized service<br>at every moment</p>
+                </div>
+
+            </div>
+    </section>
+
+    <!--  rooms specials -->
+    <section class="container">
+        <h4 class="text-center mt-5 mb-3" id="hometitle">STAY IN STYLE</h4>
+        <h1 class="text-center fw=bold mb-5">Rooms & Suites Designed for You</h1>
+        <div class="row g-5">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card" style="width: 100%;">
+                    <img height="300px" src="./media/roomie1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Ocean View Room</h5>
+                        <p class="card-text" style="text-align: center;">Wake up to breathtaking views of the ocean.
+                            Enjoy a comfortable stay with beautiful sea views and a relaxing atmosphere.</p>
+                        <p class="text-center">From ₹20,000 / Night</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button class="btn btn-primary">VIEW DETAILS</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card" style="width: 100%;">
+                    <img height="300px" src="./media/roomie2.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Poolside Suite</h5>
+                        <p class="card-text" style="text-align: center;">Steps from the pool with a private terrace and
+                            tropical vibes. Perfect for a relaxing and luxurious getaway.</p>
+                        <p class="text-center">From ₹37,500 / Night</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button class="btn btn-primary">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                <div class="card" style="width: 100%;">
+                    <img height="300px" src="./media/roomie3.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Oceanfront Villa</h5>
+                        <p class="card-text" style="text-align: center;">An exclusive villa with spacious living areas,
+                            a private kitchen and an oceanfront balcony offering breathtaking views.</p>
+                        <p class="text-center">From ₹70,000 / Night</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button class="btn btn-primary">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- resort specials section -->
+
+    <section class="specialsContainer p-4 mb-4">
+        <h4 class="text-center mt-5 mb-3" id="hometitle">UNFORGETTABLE MOMENTS</h4>
+        <h1 class="text-center fw=bold mb-5">Experiences to Inspire</h1>
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <img height="300" width="100%"
+                    src="./media/water1.jpg" alt="no image">
+                <h3 class="text-center mt-4 fs-5">WATER ACTIVITIES</h3>
+                <p class="text-center ms-5 me-5" style="text-align: center;">Snorkeling, kayaking, paddleboarding &
+                    more.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <img height="300" width="100%"
+                    src="./media/act2.jpg" alt="no image">
+                <h3 class="text-center mt-4 fs-5">ROMANTIC DINING</h3>
+                <p class="text-center ms-5 me-5" style="text-align: center;">Private dinners & unforgettable sunset
+                    experiences.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <img height="300" width="100%"
+                    src="./media/act3.jpg" alt="no image">
+                <h3 class="text-center mt-4 fs-5">SPA & WELLNESS</h3>
+                <p class="text-center ms-5 me-5" style="text-align: center;">Signature treatments for mind, body &
+                    complete relaxation.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <img height="300" width="100%"
+                    src="./media/act4.jpg" alt="no image">
+                <h3 class="text-center mt-4 fs-5">EXPLORE BEACH</h3>
+                <p class="text-center ms-5 me-5" style="text-align: center;">Discover the beach's charm, history &
+                    hidden gems.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- special offer section -->
+    <section>
+        <div class="row"
+            style="background: url(./media/homebanner.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            <div class="col-lg-12 d-flex flex-column justify-content-center  text-light p-5">
+                <h2 class="mb-4" style="font-style: italic;">Plan Your Perfect Gateway</h2>
+                <p class="mb-4 fs-5" style="text-align:justify;">Book directly with us for the best rates, exclusive
+                    offers and unforgettable memories</p>
+                <button class="btn btn-warning exploreButton">Book Now</button>
+            </div>
+            <div class="col-6"></div>
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <footer class="bg-dark">
+        <div class="row px-5 py-5">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h3 class="text-light"><img height="50px" width="50px" src="./media/logo2.png"
+                        style="background-color: beige;"> OCEAN HAVEN</h3>
+                <p style="text-align: justify; width: 300px;" class="text-light">Barefoot luxury on the shore. Your calm
+                    begins where the waves do.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 px-5">
+                <h3 class="text-light">Explore</h3>
+                <ul class="px-5">
+                    <li><a href="index.html" class="text-decoration-none text-light">Home</a></li>
+                    <li><a href="about.html" class="text-decoration-none text-light">About</a></li>
+                    <li><a href="rooms.html" class="text-decoration-none text-light">Rooms</a></li>
+                    <li><a href="adventures.html" class="text-decoration-none text-light">Adventures</a></li>
+                    <li><a href="contact.html" class="text-decoration-none text-light">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 px-5">
+                <h3 class="text-light">Follow Us On</h3>
+                <div class="d-flex gap-3">
+                    <a class="text-light" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="text-light" href="https://in.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                    <a class="text-light" href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h3 class="text-light">Join Our Journey</h3>
+                <div class="d-flex">
+                    <input type="text" class="form-control" placeholder="Enter Your Email Address">
+                    <button class="btn btn-danger ms-2">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p style="text-align: center; font-size: 20px;" class="text-light"> @2026 Ocean Haven. All Rights Reserved.
+            </p>
+        </div>
+        </div>
+    </footer>
+</body>
+
+<!--JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
